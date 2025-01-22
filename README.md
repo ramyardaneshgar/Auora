@@ -76,8 +76,8 @@ Several gaps were identified in its detection surface:
    - **Mitigation:** Employ **Intense Configuration** or integrate with Sysmon for granular registry monitoring.
 
 3. **ETW Tampering:**
-   Sophisticated adversaries may disable ETW to evade detection.
-   - **Mitigation:** Leverage Aurora’s **ETW Canary** module (commercial version) to identify tampering and monitor dropped events.
+   Adversaries may disable ETW to evade detection.
+   - **Mitigation:** Use Aurora’s **ETW Canary** module (commercial version) to identify tampering and monitor dropped events.
 
 ---
 
