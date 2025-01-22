@@ -84,10 +84,10 @@ Despite Aurora’s robust capabilities, several gaps were identified in its dete
 ### **Key Takeaways**
 
 1. **Behavioral Threat Detection:**
-   Aurora leverages Sigma rules to identify suspicious behaviors rather than relying solely on static signatures, enhancing its capability to detect novel threats.
+   Aurora uses Sigma rules to identify suspicious behaviors rather than relying solely on static signatures, a capability ideal for detecting novel threats.
 
 2. **Efficient Resource Utilization:**
-   Aurora’s lightweight design ensures low system overhead, making it ideal for environments where performance is critical.
+   Aurora’s  design ensures low system overhead, which is useful for environments where performance is critical.
 
 3. **Advanced Threat Containment:**
    Automated response actions such as process termination and suspension provide proactive defense against active threats.
