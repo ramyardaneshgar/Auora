@@ -86,7 +86,7 @@ Despite Aurora’s robust capabilities, several gaps were identified in its dete
 1. **Behavioral Threat Detection:**
    Aurora uses Sigma rules to identify suspicious behaviors rather than relying solely on static signatures, a capability ideal for detecting novel threats.
 
-2. **Efficient Resource Utilization:**
+2. **Resource Utilization:**
    Aurora’s  design ensures low system overhead, which is useful for environments where performance is critical.
 
 3. **Advanced Threat Containment:**
@@ -95,5 +95,5 @@ Despite Aurora’s robust capabilities, several gaps were identified in its dete
 4. **Integration with MITRE ATT&CK:**
    Aurora’s detections are mapped to MITRE tactics and techniques, offering contextual insights into adversarial behavior.
 
-5. **Complementary Tooling:**
+5. **Tooling:**
    While effective, Aurora benefits significantly from integration with tools like Sysmon to address gaps in detection and logging.
