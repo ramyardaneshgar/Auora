@@ -25,7 +25,7 @@ The first detection I analyzed was a **Process Creation Alert** logged with **Ev
 - **Rule ID:** `221b251a-357a-49a9-920a-271802777cc0`
 - **Severity Level:** Medium
 
-#### Analysis:
+
 `wmic.exe` is commonly leveraged during the **Discovery** phase of the **MITRE ATT&CK Framework**, specifically **T1049: System Network Connections Discovery**. Attackers utilize this utility to enumerate system information, network configurations, and active processes. Aurora successfully matched the behavior to a Sigma rule, demonstrating its capability to flag suspicious execution patterns in real time.
 
 ---
@@ -39,7 +39,7 @@ The second detection involved **Event ID: 11**, which flagged anomalous file cre
 - **Activity Mapped:** Ransomware Payload Delivery
 - **Severity Level:** High
 
-#### Analysis:
+
 The creation of a `.txt` file on the desktop aligns with post-encryption activities commonly associated with ransomware attacks. These files often contain ransom demands and are part of the **Impact** phase of the **MITRE ATT&CK Framework**, particularly **T1486: Data Encrypted for Impact**. Aurora’s rule-based detection identified this activity, underscoring its effectiveness in recognizing malicious indicators of compromise (IoCs).
 
 ---
