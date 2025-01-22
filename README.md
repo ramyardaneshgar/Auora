@@ -65,7 +65,7 @@ These automated response capabilities align with best practices for active threa
 
 ### **Detection Gaps**
 
-Despite Aurora’s robust capabilities, several gaps were identified in its detection surface:
+Several gaps were identified in its detection surface:
 
 1. **Named Pipes:**
    Aurora does not natively capture named pipe events, which can be exploited for interprocess communication during attacks. This limitation stems from ETW’s lack of native support for these events.
